@@ -14,48 +14,54 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+		<body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-	<header role="banner">
-		<nav role="navigation" class="navbar navbar-static-top navbar-default">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html">Bootstrap</a>
+		<header role="banner">
+			<nav role="navigation" class="navbar navbar-static-top navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">Bootstrap</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="">Home</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+						</ul>
+					</div>
 				</div>
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="">Home</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-				</ul>
-			</div>
-		</nav>
-        </header>
+			</nav>
+		</header	>
 	
-	<main>
-		<article>
-			<h1>My article</h1>
-			<p>Content</p>
-		</article>
+		<main>
+			<article>
+				<h1>My article</h1>
+				<p>Content</p>
+			</article>
 	
-		<aside>
-			<p>More information</p>
-		</aside>
-	</main>
+			<aside>
+				<p>More information</p>
+			</aside>
+		</main>
 	
-	<footer>Copyright 2013</footer>
+		<footer>Copyright &copy; 2016</footer>
 
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+ 		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
